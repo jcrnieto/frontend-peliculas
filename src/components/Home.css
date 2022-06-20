@@ -1,0 +1,58 @@
+.navbar{
+    background-color: aqua;
+    height: 150px;
+    width:100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    
+} 
+
+.menu{
+    display: flex;
+    padding-top: 17px;
+}
+
+.nav-menu{
+    /* display: flex; */
+    list-style: none;
+    /* margin: 0, 10px; */
+}
+/*
+.navbar > h1{
+    font-size: 35px;
+    
+}
+
+
+*/
+.container-general{
+    /* height: 100vh;
+    width: 100%;
+    height: max-content;
+    top: 0;
+    left: 0; */
+    text-align: center; 
+    background-position: center center; 
+    /* background-color: rgb(43, 41, 41); */
+ 
+}
+
+.cards{
+    /* display: flex; */
+    padding-top: 200px;
+    height: max-content;
+    /* justify-content: space-around; */
+    background-color: black;
+}
+
+.SearchBa{
+  
+}
+
+.subContainer{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 35px;
+}
