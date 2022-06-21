@@ -12,7 +12,7 @@ function Models({title, year, image, type}) {
          <h4>{year}</h4>
       </div>
       <div>
-         <Link to='/home'>
+         <Link to='/'>
              <button>volver</button>
          </Link>
       </div>
