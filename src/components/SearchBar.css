@@ -1,0 +1,19 @@
+.boton-busqueda{
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.input-busqueda{
+    border-radius: 8px;
+    font-size: 14px;
+   
+}
+

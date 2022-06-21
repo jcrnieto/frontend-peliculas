@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { useDispatch } from 'react-redux';
 import { getTitle } from '../actions/index.js';
+import './SearchBar.css';
 
 
 function SearchBar() {

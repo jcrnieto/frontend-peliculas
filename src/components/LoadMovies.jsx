@@ -15,7 +15,7 @@ function LoadMovies() {
 
   return (
     <div>
-        <button onClick={(e) => { handleClick(e);}} >Home</button>
+        <button className='button-home' onClick={(e) => { handleClick(e);}} >Home</button>
     </div>
   )
 }

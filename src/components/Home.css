@@ -1,5 +1,5 @@
 .navbar{
-    background-color: aqua;
+    background-color: rgb(59, 102, 143);
     height: 150px;
     width:100%;
     display: flex;
@@ -15,10 +15,64 @@
 }
 
 .nav-menu{
-    /* display: flex; */
     list-style: none;
-    /* margin: 0, 10px; */
+    padding-left: 20px;
+   
 }
+
+.button-movies{
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    border-radius: 10px;
+}
+
+.button-movies:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+.button-series{
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    border-radius: 10px;
+}
+
+.button-series:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+  }
+
+.button-home{
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    border-radius: 10px;
+}
+
+.button-home:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+  }
 /*
 .navbar > h1{
     font-size: 35px;
@@ -43,16 +97,40 @@
     /* display: flex; */
     padding-top: 200px;
     height: max-content;
-    /* justify-content: space-around; */
     background-color: black;
 }
 
-.SearchBa{
-  
+.SearchBar{
+  margin-left: 50px;
 }
 
 .subContainer{
     display: flex;
     padding-left: 200px;
     padding-top: 35px;
+}
+
+@media (max-width: 480px){
+   .navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: max-content;
+   } 
+
+   .navbar > h1{
+      margin-right: 10px;
+   }
+
+   .menu{
+     /* padding-bottom: 100px; */
+     padding:0;
+     margin: 0;
+     padding-left: 60px;
+   }
+
+   .subContainer{
+     /* padding:0; */
+     padding-left: 10px;
+   }
 }
