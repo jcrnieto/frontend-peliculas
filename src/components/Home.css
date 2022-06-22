@@ -94,10 +94,13 @@
 }
 
 .cards{
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding-top: 200px;
     height: max-content;
     background-color: black;
+   
 }
 
 .SearchBar{
@@ -110,6 +113,49 @@
     padding-top: 35px;
 }
 
+.card-container h2{
+    font-size: 20px;
+    color:black;
+}
+
+.card-container h3{
+    font-size: 18px;
+    color:black;
+}
+
+.card-container h4{
+    font-size: 14px;
+    color:black;
+}
+.card-container img {
+    width: auto;
+    height: auto;
+    /* max-width: 300px;
+    max-height: 150px; */
+}
+
+
+
+
+.card-item{
+    background-color: #849bca;
+    width: 320px;
+    height: 630px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+.link-movie {
+    text-decoration: none;
+}
+
+.link-movie :hover {
+    transform: scale(1.02);
+}
+
+
+ 
 @media (max-width: 480px){
    .navbar{
     display: flex;
@@ -126,7 +172,7 @@
      /* padding-bottom: 100px; */
      padding:0;
      margin: 0;
-     padding-left: 60px;
+     padding-left: 70px;
    }
 
    .subContainer{
