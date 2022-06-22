@@ -1,9 +1,10 @@
 
-
 .App {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100vh;;
+  
   /* text-align: center; */
   /* background-position: center center; */
   /* background-color: rgb(43, 41, 41);

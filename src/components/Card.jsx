@@ -5,7 +5,9 @@ function Card({image, title, type, year}) {
   return (
     <div className='card-container'>
          <h2>{title}</h2>
-         <img src={image}/>
+         <div className='card-img'>
+         <img src={image} className='img'/>
+         </div>
          <h3>{type}</h3>
          <h4>{year}</h4>
     </div>

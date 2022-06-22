@@ -1,0 +1,29 @@
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    color:white;
+    height: 100vh;
+}
+
+.container-detail{
+    background-color: rgb(17, 39, 102);
+    margin-left: 160px;
+    width: 900px;
+    border-radius: 50px
+    
+}
+
+h2{
+    padding-top: 60px;
+}
+
+@media (max-width: 480px){
+    .container{
+        height: max-content;
+        width: 8px;
+    }
+}

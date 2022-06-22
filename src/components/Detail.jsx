@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import { getId } from '../actions';
 import Models from './Models';
 
+
 function Detail() {
   const dispatch = useDispatch();
   const movieId = useSelector( state => state.movie);
