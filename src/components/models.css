@@ -3,6 +3,7 @@
 .container{
     margin: 0;
     padding: 0;
+    padding-top: 0%;
     background-color: black;
     text-align: center;
     color:white;
@@ -11,7 +12,7 @@
 
 .container-detail{
     background-color: rgb(17, 39, 102);
-    margin-left: 160px;
+    margin-left: 210px;
     width: 900px;
     border-radius: 50px
     
@@ -21,14 +22,33 @@
     padding-top: 60px;
 }
 
+.button{
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+  }
+
 @media (max-width: 480px){
     .container{
        width:100vw;
-       height: 100%;
+       height: 100vp;
     }
 
     .container-detail{
         width:330px;
-        margin-left: 30px;
+        margin-left: 15px;
     }
 }
