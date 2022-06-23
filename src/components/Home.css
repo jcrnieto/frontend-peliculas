@@ -12,6 +12,8 @@
 .menu{
     display: flex;
     padding-top: 17px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .nav-menu{
