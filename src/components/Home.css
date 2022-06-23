@@ -17,7 +17,12 @@
 .nav-menu{
     list-style: none;
     padding-left: 20px;
+    padding-top: 18px;
    
+}
+
+.navbar h1{
+   padding-top: 20px;
 }
 
 .button-movies{
@@ -110,7 +115,7 @@
 .subContainer{
     display: flex;
     padding-left: 200px;
-    padding-top: 35px;
+    padding-top: 52px;
 }
 
 .card-container h2{
@@ -169,6 +174,17 @@
     max-height: 480px;
 }
 
+.input-busqueda{
+    border: 0;
+    background-color: #eee;
+    outline: none;
+    
+    border: 1px solid rgb(38, 41, 43);
+}
+
+.order-age{
+    border: 0; 
+}
  
 @media (max-width: 480px){
    .navbar{

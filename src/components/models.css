@@ -49,6 +49,19 @@
 
     .container-detail{
         width:330px;
-        margin-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+
+    .subContainer{
+        margin-bottom: 15px;
+    }
+
+    .boton-busqueda{
+        margin-top: 8px;
+    }
+
+    
 }
