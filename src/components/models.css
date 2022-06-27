@@ -8,11 +8,15 @@
     text-align: center;
     color:white;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container-detail{
     background-color: rgb(17, 39, 102);
-    margin-left: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: auto;
     width: 900px;
     border-radius: 50px
     
@@ -52,7 +56,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        margin-bottom: auto;
+       
     }
 
     .subContainer{

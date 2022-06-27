@@ -1,22 +1,25 @@
-// import React from 'react';
-
-import { useDispatch, useSelector } from 'react-redux';
+import React, {useState} from 'react';
+import { useDispatch } from 'react-redux';
 import { getOrderDesc } from '../actions';
 import './year.css'
 
-import React from 'react'
+
 
 function Year() {
 const dispatch = useDispatch();
-const orderMovies = useSelector((state)=> state.movies);
+const [ click, setClick] = useState(false)
+
 
 
 function handleClick(e){
+  //console.log(e.target.value)
     e.preventDefault();
-    //console.log(e.target.value, 'componente año')
-    //setClick(true);
-    if(e.target.value === 'DESC') return dispatch(getOrderDesc(e.target.value))
-    console.log(getOrderDesc)
+    
+    if(e.target.value === 'DESC'){
+      setClick(true)
+      dispatch(getOrderDesc(e.target.value))
+    } 
+    //console.log(getOrderDesc)
     
 }
    
